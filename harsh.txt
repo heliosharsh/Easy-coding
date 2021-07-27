@@ -1,0 +1,89 @@
+Q-1 a
+mylist =[12,35,9,56,24]
+
+mylist.remove(12)
+
+mylist.remove(24)
+
+mylist.insert(0,24)
+
+mylist.insert(4,12)
+
+print(mylist)
+
+Q-1 b
+mylist =[1,2,3]
+
+mylist.remove(1)
+
+mylist.remove(3)
+
+mylist.insert(0,3)
+
+mylist.insert(2,1)
+
+print(mylist)
+
+Q-2 a
+mylist =[23,65,19,90]
+
+mylist.remove(23)
+
+mylist.remove(19)
+
+mylist.insert(0,19)
+
+mylist.insert(2,23)
+
+print(mylist)
+
+Q-2 b
+mylist =[1,2,3,4,5]
+
+mylist.remove(2)
+
+mylist.remove(5)
+
+mylist.insert(1,5)
+
+mylist.insert(4,2)
+
+print(mylist)
+
+
+
+Q -3 a
+mylist=[4,5,1,2,9,7,19,8]
+
+print(sum(mylist))
+
+print(sum(mylist)/8)
+
+Q -4 b
+mylist=[15,9,55,41,35,20,62,49]
+
+print(sum(mylist))
+
+print(sum(mylist)/8)
+
+Q- 5 a
+mylist=[1,2,3]
+
+result=1
+
+for x in mylist:
+
+    result=result* x
+
+print(result)
+
+Q -5 b
+mylist=[3,2,4]
+
+result=1
+
+for x in mylist:
+    
+result=result* x
+print
+(result)
